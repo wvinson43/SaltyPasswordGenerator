@@ -1,4 +1,6 @@
-# co3824230b2a63cdcdba2b4fa
+# Important note!
+
+# This is a demonstration project only and not meant for commercial use or use by hackers!
 
 Quick start:
 
