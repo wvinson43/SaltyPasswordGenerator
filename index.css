@@ -27,7 +27,7 @@ h1 {
 }
 
 h3 { 
-    margin: -0.313rem auto 0.625rem;
+    margin: 0 auto 0.625rem;
     font-weight: 400;
 }
 
@@ -58,61 +58,56 @@ button {
     cursor: pointer;
 }
 
+.lightning-icon {
+    display: flex;
+    align-items: center;
+}
+
 button:hover, 
 button:focus {
     transform: scale(1.06);
 }
 
-.lightning-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.grid-container {
+    padding-top: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
 }
 
 .grid-container-div {
      padding: 1rem 1.4rem;
- }
+}
 
-  .password {
-     display: inline-block;
-     min-width: 80%;
-     word-wrap: break-word;
-     background: #273549;
-     color:#55F991;
-     padding: 1.2rem 1.4rem;
-     border-radius: 6px;
-     margin: 1rem -2rem 1rem 3rem;
-     text-align: center;
-  }
+.password {
+    text-align: center;
+    background: #273549;
+    color:#55F991;
+    line-height: 0;
+    padding: 1.2rem 1.4rem;
+    border-radius: 6px;
+}
   
-  .password:empty:before {
-      content: "#🧂#🧂#🧂#🧂#🧂#🧂#🧂#🧂"
-  }
-  
+.password:empty:before {
+    content: "#🧂#🧂#🧂#🧂#🧂#🧂#🧂#🧂"
+}
+
   /* responsiveness */
   
-  @media (min-width: 626px) {
-      
+@media (min-width: 626px) {  
     h1 {
-          margin-top: 5rem;
-      }
-      
-    .grid-container {
-          padding-top: 1.5em;
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-          gap: 1.4rem;
+        margin-top: 5rem;
     }
     
     .password {
-          margin: 0;
-          overflow: hidden;
-          text-overflow: ellipsis;
-      }
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
       
-  }
+}
   
-    @media (max-width: 625px) { 
+@media (max-width: 625px) { 
     button,
     input {
         width: 100%;
