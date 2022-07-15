@@ -1,6 +1,11 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="title" property="og:title" content="Password Generator with Salt">
+        <meta property="og:type" content="website">
+        <meta name="image" property="og:image" content="https://imgur.com/ZHJO1Ed">
+        <meta name="description" property="og:description" content="Password Generator">
+        <meta name="author" content="Wes Vinson">
         <link rel="stylesheet" href="index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,16 +22,19 @@
             </header>
             <main>
                 <div class="selector">
-                    <input type="number" id="number-input" value="1" min="1" max="99"<span class="select"> Select # (1-100)</span>
+                    <span class="select">Select a # (1-100)!<span>
+                    <input type="number" id="number-input" value="1" min="1" max="99">
                     <button id="button-el" class="lightning-icon">
                         <span class="material-symbols-outlined">bolt</span>Generate passwords</button>
                 </div>
                 <hr>
-                <div class="flex-container">
-                    <div class="flex-container-div password" id="firstPassword-el"></div>
-                    <div class="flex-container-div password" id="secondPassword-el"></div>
-                    <div class="flex-container-div password" id="thirdPassword-el"></div>
-                    <div class="flex-container-div password" id="fourthPassword-el"></div>
+                <div class="grid-container">
+                    <div class="grid-container-div password" id="firstPassword-el" 
+                    placeholder="1st choice"></div>
+                    <div class="grid-container-div password" id="secondPassword-el" placeholder="2nd choice"></div>
+                    <div class="grid-container-div password" id="thirdPassword-el" 
+                    placeholder="3rd choice"></div>
+                    <div class="grid-container-div password" id="fourthPassword-el" placeholder="4th choice"></div>
                 </div>
             </main>
          </div>

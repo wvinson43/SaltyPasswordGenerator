@@ -1,10 +1,9 @@
-
-let firstPasswordEl = document.getElementById("firstPassword-el")
-let secondPasswordEl = document.getElementById("secondPassword-el")
-let thirdPasswordEl = document.getElementById("thirdPassword-el")
-let fourthPasswordEl = document.getElementById("fourthPassword-el")
-let passwordEls = document.getElementsByClassName("password")
-let numberInput = document.getElementById("number-input")
+const firstPasswordEl = document.getElementById("firstPassword-el")
+const secondPasswordEl = document.getElementById("secondPassword-el")
+const thirdPasswordEl = document.getElementById("thirdPassword-el")
+const fourthPasswordEl = document.getElementById("fourthPassword-el")
+const passwordEls = document.getElementsByClassName("password")
+const numberInput = document.getElementById("number-input")
 document.getElementById("button-el").addEventListener("click", generateRequestedPasswords, true)
 
 

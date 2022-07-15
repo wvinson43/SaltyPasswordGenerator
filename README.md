@@ -1,21 +1,4 @@
-# Important note!
-
-# This is a demonstration project only and not meant for commercial use or use by hackers!
-
-Quick start:
-
-```
-$ yarn # npm install
-$ yarn build # npm run build
-````
-
-## Development
-
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
-
-```
-$ yarn watch # npm run watch
-```
+# co3824230b2a63cdcdba2b4fa
 
 ## About Scrimba
 
