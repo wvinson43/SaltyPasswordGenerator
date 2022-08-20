@@ -10,7 +10,7 @@ This is built with JavaScript, HTML, and CSS:  responsive & scalable.  Deployed 
 
 This was build with HTML, CSS, and Javascript. It is optimized for responsiveness and scaleable.
 
-If you have any questions or comments please email me at wesleyvinson2022@yahoo.com
+If you have any questions or comments please email me at wesleyvinson2022@gmail.com
 
 ## Deployed link
 
