@@ -14,4 +14,4 @@ If you have any questions or comments please email me at wesleyvinson2022@yahoo.
 
 ## Deployed link
 
-You can find it deployed at https://wvinson43.github.io/Password-generator/
+You can find it deployed at https://wvinson43.github.io/SaltyPasswordGenerator/
